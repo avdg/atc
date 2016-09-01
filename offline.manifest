@@ -1,0 +1,9 @@
+---
+---
+CACHE MANIFEST
+{% for file in site.static_files %}{{ file.path | remove_first:'/' }}
+{% endfor %}
+SETTINGS:
+prefer-online
+NETWORK:
+*
